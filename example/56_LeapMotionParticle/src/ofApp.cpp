@@ -28,7 +28,7 @@ void ofApp::setup(){
     }
     // メッシュ初期化
     mesh.setMode(OF_PRIMITIVE_POINTS);
-    static GLfloat distance[] = { 0.0, 0.0, 1.0 };
+    static GLfloat distance[] = { 0.0, 0.05, 1.0 };
     glPointParameterfv(GL_POINT_DISTANCE_ATTENUATION, distance);
     glPointSize(3000);
 }
